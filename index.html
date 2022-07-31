@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Slider</title>
+
+    <!-- Icone -->
+    <link rel="icon" type="image/x-icon" href="src/imagens/favicon.png">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/logo.png" alt="logo de hogwarts" class="logo">
+        <h1 class="titulo">Hogwarts Slider</h1>
+    </header>
+
+    <main class="hogwarts-slider">
+        <button class="btn-seta btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-casa">
+            <li class="cartao selecionado fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Grifinória</h2>
+                    <p class="elemento">Elemento: Fogo</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/grifinoria.png" alt="Grifinoria" class="imagem-casa">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Chapéu Seletor classifica alunos que tem características tais como a coragem, o cavalheirismo e a determinação. E seu animal emblemático é um leão.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Sonserina</h2>
+                    <p class="elemento">Elemento: Água</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/sonserina.png" alt="Sonserina" class="imagem-casa">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Chapéu Seletor seleciona alunos que possui algumas de suas características, entre elas incluem a astúcia, desenvoltura, liderança e ambição. Seu animal emblemático é uma serpente.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Corvinal</h2>
+                    <p class="elemento">Elemento: Ar</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/corvinal.png" alt="Corvinal" class="imagem-casa">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Seus membros, comumente, são caracterizados por sua inteligência, aprendizado e sabedoria. O animal emblemático é uma águia.</p>
+                </div>
+            </li>
+
+            <li class="cartao  fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Lufa-Lufa</h2>
+                    <p class="elemento">Elemento: Terra</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/lufalufa.png" alt="Corvinal" class="imagem-casa">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Conhecida como a mais inclusiva entre todas, valoriza trabalho árduo, dedicação, paciência, lealdade e o jogo limpo ao invés de aptidão particular de seus membros. Seu animal emblemático é um texugo.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

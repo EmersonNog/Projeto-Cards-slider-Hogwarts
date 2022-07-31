@@ -1,0 +1,56 @@
+@media (max-width: 688px) {
+    .hogwarts-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-casa {
+        height: 480px;
+    }
+
+    .cartao {
+        height: 400px;
+    }
+
+    .cartao .imagem-casa {
+        max-height: 180px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 1px;
+    }
+
+    .cartao .informacoes {
+        margin: 8px 0;
+    }
+
+    .cartao .informacoes .nome {
+        max-width: 50%;
+        font-size: 14px;
+    }
+
+    .cartao .informacoes .elemento {
+        font-size: 12px;
+        width: 98px;
+    }
+
+    .cartao .descricao .texto {
+        overflow-y: auto;
+        height: 75px;
+    }
+
+    .cartao .descricao {
+        max-height: 160px;
+        margin-bottom: 140px;
+    }
+    
+}
